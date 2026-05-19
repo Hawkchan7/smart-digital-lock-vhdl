@@ -1,34 +1,25 @@
 # Smart Digital Lock System Using VHDL
 
 ## Overview
-This project implements a smart digital lock system using VHDL.
+This project implements a smart digital lock system using VHDL for FPGA-based security systems.
 
 ## Features
 - 4-digit password authentication
-- Wrong password alert
-- Master reset
-- 7-segment display output
-- FPGA compatible design
+- Wrong attempt detection
+- Alert indication
+- Reset functionality
+- 7-segment display support
 
 ## Technologies Used
 - VHDL
-- Quartus Prime
-- ModelSim
+- FPGA Logic Design
+- Digital Electronics
 
-## Password
-Default password:
-1 2 3 4
-
-## Project Structure
-- src/
-- simulation/
-- screenshots/
-- docs/
-
-## Simulation
-Simulation was performed successfully using ModelSim.
+## Files Included
+- digital_lock.vhdl
+- digital_lock_tb.vhdl
 
 ## Applications
-- Digital door locks
-- Security systems
-- FPGA-based authentication systems
+- Smart Door Locks
+- Security Systems
+- FPGA Authentication Systems
