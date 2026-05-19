@@ -23,3 +23,10 @@ This project implements a smart digital lock system using VHDL for FPGA-based se
 - Smart Door Locks
 - Security Systems
 - FPGA Authentication Systems
+
+- ## Hardware Compatibility
+The design is FPGA compatible and can be deployed on FPGA development boards such as:
+- Xilinx Spartan Series
+- Intel/Altera FPGA Boards
+
+The keypad and 7-segment display interfaces are implemented logically within the VHDL architecture for simulation purposes.
